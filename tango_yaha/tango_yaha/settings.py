@@ -59,6 +59,7 @@ WSGI_APPLICATION = 'tango_yaha.wsgi.application'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+LOGIN_URL = '/rango/login/'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
