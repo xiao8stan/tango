@@ -1,0 +1,6 @@
+{% if pages %}
+{% for page in pages %}
+{{page.title}} {% if page.views > 1 %} - ({{ page.views }} views) {% elif page.views == 1 %} - ({{ page.views }} view) {% endif %}
+{% endfor %}
+{% else %} No pages currently in category.
+{% endif %}
