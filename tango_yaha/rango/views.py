@@ -245,19 +245,6 @@ def get_category_list(max_results=0, starts_with=''):
     return cat_list
 
 
-# def suggest_category(request):
-#     query = None
-#     context_dict = {}
-#     if request.method == 'GET':
-#         query = request.GET['suggestion']
-#
-#     if query:
-#         get_category_list(max_results=8, starts_with=query)
-#
-#         context_dict['cat_list'] = get_category_list(max_results=8, starts_with=query)
-#
-#         return render(request, 'rango/base.html', context_dict)
-#
 def suggest_category(request):
     if request.method == 'GET':
         starts_with = request.GET['suggestion']
