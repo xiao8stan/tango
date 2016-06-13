@@ -1,0 +1,10 @@
+coverage==4.1
+Django==1.7
+django-registration==2.1
+django-registration-redux==1.4
+gunicorn==19.6.0
+meld3==1.0.2
+Pillow==3.2.0
+pkg-resources==0.0.0
+supervisor==3.3.0
+uWSGI==2.0.13.1
